@@ -26,3 +26,69 @@
   background-size: cover;
   background-position: center;
 }
+
+
+ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.is-hidden{
+  display: none;
+}
+
+.search-form {
+  background-color: #54747c;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  padding: 15px;
+  justify-content: center;
+  gap: 20px;
+  z-index: 2;
+}
+
+.search-form__input {
+  margin-right: 5px;
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+
+.search-form__button {
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+}
+
+.gallery {
+  display: flex;
+  max-width: 1200px;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 60px 0 0 0;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.load-more:not(.is-hidden) {
+  display: block;
+  padding: 10px;
+  background-color: #54747c;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+
+
+
